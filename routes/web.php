@@ -14,9 +14,7 @@ use App\Http\Controllers\PegawaiController;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard/admin/index');
-});
+Route::get('/', [\App\Http\Controllers\IndexController::class, 'index'])->name('index');
 
 // Route Pegawai
 Route::get('pegawai/api_docs', [PegawaiController::class, 'api_docs'])->name('pegawai.api_docs');
