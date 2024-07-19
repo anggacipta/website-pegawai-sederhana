@@ -4,10 +4,11 @@ Website CRUD sederhana untuk menginputkan data pegawai
 
 ## Persyaratan
 
-- PHP >= 7.3
+- PHP >= 8.0
 - Composer
 - Node.js dan npm (atau yarn)
 - Git
+- Terhubung Internet
 
 ## Instalasi
 
