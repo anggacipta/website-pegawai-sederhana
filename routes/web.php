@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PegawaiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,12 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/test-lte', function () {
     return view('dashboard/admin/index');
 });
 
-// Route Ruangan
-Route::get('/ruangan', [\App\Http\Controllers\RuanganController::class, 'index'])->name('ruangan.index');
+// Route Pegawai
+Route::get('pegawai/api_docs', [PegawaiController::class, 'api_docs'])->name('pegawai.api_docs');
+Route::resource('pegawai', PegawaiController::class);
