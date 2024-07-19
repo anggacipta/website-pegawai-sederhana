@@ -1,6 +1,6 @@
 # Website Pegawai Sederhana
 
-Deskripsi singkat tentang proyek Anda.
+Website CRUD sederhana untuk menginputkan data pegawai
 
 ## Persyaratan
 
@@ -72,10 +72,3 @@ php artisan serve
 ```
 
 Setelah menjalankan perintah ini, Anda harus dapat mengakses aplikasi Laravel Anda di `http://localhost:8000`.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE.md](LICENSE.md) untuk detail.
-```
-
-Ganti "Nama Proyek Anda" dan "Deskripsi singkat tentang proyek Anda" dengan nama dan deskripsi proyek Anda. Anda juga perlu mengganti `your-repository-url` dan `your-repository-name` dengan URL dan nama repositori GitHub Anda.
