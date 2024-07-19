@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama');
             $table->text('alamat');
-            $table->bigInteger('telepon');
+            $table->string('telepon');
             $table->string('email');
             $table->string('posisi');
             $table->string('departemen');
